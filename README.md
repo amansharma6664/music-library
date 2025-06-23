@@ -1,21 +1,21 @@
-# 🎶 Music Library – Micro Frontend (Remote App)
+# Music Library – Micro Frontend (Remote App)
 
 This is the Music Library Micro Frontend built using **React** and **Webpack 5 Module Federation**. It is loaded remotely into the `main-app` container.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🎵 Clean dark-themed UI to display a list of songs
-- 🔍 Filter songs by title, artist, or album
-- ↕️ Sort and group songs using `map`, `filter`, `reduce`
-- ➕ Add/Delete songs (Admin only)
-- ✅ Form validation with success/error messages
-- 🔐 Role-based UI (Admin/User)
+-  Clean dark-themed UI to display a list of songs
+-  Filter songs by title, artist, or album
+-  Sort and group songs using `map`, `filter`, `reduce`
+-  Add/Delete songs (Admin only)
+-  Form validation with success/error messages
+-  Role-based UI (Admin/User)
 
 ---
 
-## 👥 Role-Based Access
+## Role-Based Access
 
 | Role   | View Songs | Filter/Sort | Add/Delete |
 |--------|------------|-------------|------------|
@@ -26,7 +26,7 @@ This is the Music Library Micro Frontend built using **React** and **Webpack 5 M
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - React (Functional Components + Hooks)
 - Webpack 5 with Module Federation
@@ -35,7 +35,7 @@ This is the Music Library Micro Frontend built using **React** and **Webpack 5 M
 
 ---
 
-## 📦 How to Run Locally
+## How to Run Locally
 
 1. Clone this repo:
    ```bash
