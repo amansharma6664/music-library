@@ -11,7 +11,7 @@ const songsData = [
   { title: "Grow Old with Me", artist: "Tom Odell", album: "Long Way Down" },
   { title: "In the End", artist: "Linkin Park", album: "Hybrid Theory" },
   { title: "Paradise", artist: "Coldplay", album: "Mylo Xyloto" }
-]; 
+];  
 
 
 const SongList = ({ role }) => {
