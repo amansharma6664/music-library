@@ -9,7 +9,7 @@ module.exports = {
     port: 3001,
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, "dist"),
     publicPath: "auto",
     uniqueName: "music_library"
   },
