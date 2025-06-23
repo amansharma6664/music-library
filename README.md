@@ -16,7 +16,7 @@ This is the **Music Library Micro Frontend** built using React and Webpack 5 wit
 ---
 
 ## 🧰 Tech Stack
-
+  
 - React (Functional Components with Hooks)
 - Webpack 5 + Module Federation
 - JavaScript methods: `map`, `filter`, `reduce`
