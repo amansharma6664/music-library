@@ -1,12 +1,18 @@
 import React, { useState } from "react";
 
 const songsData = [
-  { title: "Blinding Lights", artist: "The Weeknd", album: "After Hours" },
-  { title: "Shape of You", artist: "Ed Sheeran", album: "Divide" },
-  { title: "Levitating", artist: "Dua Lipa", album: "Future Nostalgia" },
-  { title: "Save Your Tears", artist: "The Weeknd", album: "After Hours" },
-  { title: "Peaches", artist: "Justin Bieber", album: "Justice" }
+  { title: "Numb", artist: "Linkin Park", album: "Meteora" },
+  { title: "Fix You", artist: "Coldplay", album: "X&Y" },
+  { title: "Chandelier", artist: "Sia", album: "1000 Forms of Fear" },
+  { title: "Another Love", artist: "Tom Odell", album: "Long Way Down" },
+  { title: "Viva La Vida", artist: "Coldplay", album: "Viva la Vida or Death and All His Friends" },
+  { title: "Crawling", artist: "Linkin Park", album: "Hybrid Theory" },
+  { title: "Cheap Thrills", artist: "Sia", album: "This Is Acting" },
+  { title: "Grow Old with Me", artist: "Tom Odell", album: "Long Way Down" },
+  { title: "In the End", artist: "Linkin Park", album: "Hybrid Theory" },
+  { title: "Paradise", artist: "Coldplay", album: "Mylo Xyloto" }
 ];
+
 
 const SongList = ({ role }) => {
   const [songs, setSongs] = useState(songsData);
@@ -71,7 +77,7 @@ const SongList = ({ role }) => {
         🎵 Music Library
       </h2>
 
-      {/* ADMIN ONLY: ADD SONG */}
+       {/* ADMIN ONLY: ADD SONG  */}
       {role === "admin" && (
         <div style={{ marginBottom: "30px", border: "1px solid #333", padding: "20px", borderRadius: "8px" }}>
           <h3 style={{ marginBottom: "15px" }}>➕ Add New Song</h3>
